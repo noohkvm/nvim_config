@@ -1,6 +1,7 @@
 return {
   "neovim/nvim-lspconfig",
   config = function()
+    require("lspconfig").clangd.setup {}
     require("lspconfig").pyright.setup({
    	on_attach = function(client, bufnr)
         local opts = { noremap = true, silent = true }
