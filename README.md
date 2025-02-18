@@ -1,11 +1,16 @@
 # Notes
-install lsp servers (pyright,clangd etc.)
-authenticate with github copilot
 
-# KeyMappings
-Ctrl+b toggle tree
-Ctrl+p command palette
-Ctrl+t terminal
-Ctrl+f format
-gd : go to defnition
-gr : go to references
+- Install LSP Servers (pyright,clangd etc.) 
+- Authenticate with Github copilot
+
+# Key Mappings
+
+| Key    | Description      |
+| ------ | ---------------- |
+| Ctrl+b | Toggle Tree      |
+| Ctrl+p | Command palette  |
+| Ctrl+t | Toggle terminal  |
+| Ctrl+f | format           |
+| gd     | go-to definition |
+| gr     | go-to references |
+
