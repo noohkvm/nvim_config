@@ -1,7 +1,7 @@
 return {
-  "ajmwagar/vim-deus",
+  "ellisonleao/gruvbox.nvim",
   config = function()
-    vim.cmd("colorscheme deus")
+    vim.cmd("colorscheme gruvbox")
   end,
 }
 
