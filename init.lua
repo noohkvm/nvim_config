@@ -13,6 +13,11 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.fillchars = { eob = " " }
 
+vim.keymap.set("n", "gd", vim.lsp.buf.definition, { noremap = true, silent = true })
+vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { noremap = true, silent = true })
+vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { noremap = true, silent = true })
+vim.keymap.set("n", "gr", vim.lsp.buf.references, { noremap = true, silent = true })
+
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
         if vim.fn.argc() == 0 then
